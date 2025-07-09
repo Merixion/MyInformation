@@ -1,0 +1,32 @@
+.UserInformation{
+  border: 5px solid rgb(0, 136, 255);
+  border-radius: 10px;
+  display: flex;
+  color: black;
+  height:  400px;
+}
+
+.textInfo{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 20px;
+  flex: 1;
+}
+
+.ImageInfo img{
+  height:  400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.AllHomePage{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.StandardLink{
+  text-decoration: none;
+  font-size: 25px;
+  width: 200px;
+  transform: translateX(330px);
+  background: rgb(0, 136, 255);
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.StandardLink:hover{
+  background: rgb(2, 103, 192);
+}

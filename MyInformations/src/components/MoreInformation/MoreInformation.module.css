@@ -1,0 +1,54 @@
+.LinkBack{
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  height: 40px;
+  width: auto;
+  transform: translateX(0);
+} 
+
+.InformationMore{
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.InformationMore p{
+  border-bottom: 1px solid red;
+  width: 100%;
+  text-align: start;
+  font-weight: 1000;
+}
+
+.InformationMore ul{
+  background: transparent;
+  list-style: none;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.InformationMore li {
+  display: flex;
+  align-items: center;       /* ← Выравнивает эмодзи */
+  padding: 5px 0;
+  background-color: rgb(248, 176, 248);
+  padding: 5px 15px;
+}
+
+.InformationMore li::before {
+  content: "🍆";
+  margin-right: 12px;
+  font-size: 19px;
+  flex-shrink: 0;           /* ← Не сжимается */
+  border-left: 4px solid violet;
+  transition: all 0.3 ease;
+
+}
+
+.InformationMore li:hover{
+  transform: translateY(-5px);
+  background: rgb(255, 84, 255);
+}
