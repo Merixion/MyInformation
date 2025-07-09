@@ -52,3 +52,9 @@
   transform: translateY(-5px);
   background: rgb(255, 84, 255);
 }
+
+@media(max-width: 1068px){
+  .InformationMore li:hover{
+    background: rgb(248, 176, 248);
+  }
+}
