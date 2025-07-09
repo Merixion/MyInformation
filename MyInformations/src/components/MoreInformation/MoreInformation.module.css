@@ -56,5 +56,6 @@
 @media(max-width: 1068px){
   .InformationMore li:hover{
     background: rgb(248, 176, 248);
+    transform: translateY(0px);
   }
 }
