@@ -2,9 +2,6 @@
 
 body{
   background: wheat;
-  min-height: 120vh;
-  min-width: 120vw;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }

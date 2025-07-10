@@ -1,8 +1,8 @@
 .LinkBack{
   position: fixed;
-  left: 5px;
+  right: 5px;
   top: 5px;
-  height: 40px;
+  height: 20px;
   width: auto;
   transform: translateX(0);
 } 
@@ -35,7 +35,7 @@
   align-items: center;       /* ← Выравнивает эмодзи */
   padding: 5px 0;
   background-color: rgb(248, 176, 248);
-  padding: 5px 15px;
+
 }
 
 .InformationMore li::before {
@@ -58,4 +58,9 @@
     background: rgb(248, 176, 248);
     transform: translateY(0px);
   }
+
+  .InformationMore li {
+    font-size: 15px;
+  }
+  
 }

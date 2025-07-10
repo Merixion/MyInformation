@@ -34,26 +34,28 @@
   overflow: hidden;
 }
 
-@media(max-width: 1068px) {
+@media(max-width: 786px) {
   .UserInformation{
     border: 5px solid rgb(0, 136, 255);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: black;
-    height:  460px;
-    width: 200px;
+    height:  80vh;
+    width: 80vw;
   }
   
   .textInfo{
-    font-size: 13px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 14px;
     flex: 1;
   }
   
   .ImageInfo img{
-    height:  200px;
-    width: 150px;
+    height:  35vh;
+    width: 55vw;
     object-fit: cover;
     border-radius: 5px;
     padding: 5px;
