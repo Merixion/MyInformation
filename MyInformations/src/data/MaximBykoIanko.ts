@@ -11,5 +11,5 @@ export const Maxim: Information = {
 	image:
 		'/image/photo_2025-07-08 17.27.29.jpeg',
 	description:
-		'Hello, my name is Maxim. I am engaged in making sites on react + Typescript.',
+		'Hello, my name is Maxim. I am engaged in making websites on react + Typescript.',
 };
